@@ -1,0 +1,7 @@
+{
+  "SQS_QUEUE_FIFO_URL": "https://sqs.us-west-2.amazonaws.com/url-here/poc-queue-manager.fifo",
+  "SQS_QUEUE_FIFO_NAME": "poc-queue-manager.fifo",
+  "SQS_QUEUE_GROUP_ID": "poc-queue-manager",
+  "SQS_QUEUE_TIMEOUT": 600,
+  "QUEUE_LENGHT": 10
+}

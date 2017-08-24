@@ -1,0 +1,4 @@
+node_modules
+.sonarlint
+.vscode
+aws-config.json
