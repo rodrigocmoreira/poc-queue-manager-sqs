@@ -8,7 +8,9 @@
     "mocha": "export NODE_ENV=test && _mocha --recursive",
     "check": "./node_modules/.bin/eslint ./**.js .;",
     "start": "node index.js",
-    "debug": "node --debug-brk index.js"
+    "debug": "node --debug-brk index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "rodrigocmoreira",
   "license": "ISC",
@@ -16,10 +18,12 @@
     "nconf": "^0.8.4",
     "winston": "^2.3.1",
     "aws-sdk": "^2.95.0",
-    "async": "^2.5.0"
+    "async": "^2.5.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "depcheck": "^0.6.7",
     "eslint": "^4.5.0"
-  }
+  },
+  "snyk": true
 }
